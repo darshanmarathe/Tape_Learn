@@ -1,0 +1,47 @@
+{
+  "stats": { "asserts": 6, "passes": 6, "failures": 0 },
+  "asserts": [
+    {
+      "number": 1,
+      "comment": "test that it returns a array",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    },
+    {
+      "number": 2,
+      "comment": "test that it returns a array when something other num is passed",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    },
+    {
+      "number": 3,
+      "comment": "test that it returns floats",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    },
+    {
+      "number": 4,
+      "comment": "test that it can evaluate fractors",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    },
+    {
+      "number": 5,
+      "comment": "test that it can evaluate bigger fractors ",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    },
+    {
+      "number": 6,
+      "comment": "test that it can remove the duplicate values ",
+      "name": "should be equivalent",
+      "ok": true,
+      "extra": {}
+    }
+  ]
+}
