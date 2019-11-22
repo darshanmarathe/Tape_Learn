@@ -1,0 +1,35 @@
+[
+    {
+        "type" : "equal" , 
+        "property" : ".length",
+        "value" : 5,
+        "message" : "Correct length"
+    },
+    {
+        "type" : "equal" , 
+        "property" : ".filter(x => x.age > 21).length",
+        "value" : 4,
+        "message": "old people in group"
+    },
+    {
+        "type" : "equal" , 
+        "property" : ".filter(x => x.age <= 21).length",
+        "value" : 1,
+        "message" : "Young people"
+    },
+    {
+        "type" : "deepEqual" , 
+        "property" : "[0]",
+        "value" : {
+            "name" : "Darshan",
+            "age" : 32
+        },
+        "message" : "this is Darshan"
+    },
+    {
+        "type" : "ok" , 
+        "property" : "[4].age",
+        "message" : "this is Darshan"
+    }
+
+]

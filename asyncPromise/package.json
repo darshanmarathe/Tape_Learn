@@ -1,0 +1,20 @@
+{
+  "name": "asyncpromises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "base": "tape test.js",
+    "test": "npm run base | faucet",
+    "testj": "npm run base | tap-json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "mixed-tape": "^1.0.2",
+    "tap-json": "^1.0.0",
+    "tape": "^4.11.0"
+  }
+}
