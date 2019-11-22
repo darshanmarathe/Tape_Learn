@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "testp": "concurrently \"npm run start\" \"npm run test\"",
+    "base": "tape tests/**/*.js",
+    "test": "npm run base | faucet"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
